@@ -21,12 +21,12 @@ ch.isHoliday('2018-10-1')
 
 ## API
 
-* [isHoliday](#isHoliday(date))
-* [isWorkday](#isWorkday(date))
-* [isRestday](#isRestday)
-* [getHolidaysBetween](#getHolidaysBetween)
+* [isHoliday](#isholiday)
+* [isWorkday](#isworkday)
+* [isRestday](#isrestday)
+* [getHolidaysBetween](#getholidaysBetween)
 
-### isHoliday(date)
+### isHoliday
 > 判断一个日期是否为法定节假日
 - date string|timestamp|Date 日期
 - 返回：boolean
@@ -35,7 +35,7 @@ cn.isHoliday('2018-5-1')
 // true
 ```
 
-### isHoliday(date)
+### isWorkday
 > 判断一个日期是否为工作日（包括法定调休）
 - date string|timestamp|Date 日期
 - 返回：boolean
@@ -44,7 +44,7 @@ cn.isWorkday('2018-4-28')
 // true
 ```
 
-### isRestday(date)
+### isRestday
 > 判断一个日期是否为法定休息日（除开正常双休）
 - date string|timestamp|Date 日期
 - 返回：boolean
@@ -53,7 +53,7 @@ cn.isRestday('2018-4-30')
 // true
 ```
 
-### getHolidaysBetween(date)
+### getHolidaysBetween
 > 获取两个日期之间的所有法定节假日
 - date1 string|timestamp|Date 日期1
 - date2 string|timestamp|Date 日期2
