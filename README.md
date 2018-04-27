@@ -31,7 +31,7 @@ ch.isHoliday('2018-10-1')
 - date string|timestamp|Date 日期
 - 返回：boolean
 ```javascript
-cn.isHoliday('2018-5-1')
+ch.isHoliday('2018-5-1')
 // true
 ```
 
@@ -40,7 +40,7 @@ cn.isHoliday('2018-5-1')
 - date string|timestamp|Date 日期
 - 返回：boolean
 ```javascript
-cn.isWorkday('2018-4-28')
+ch.isWorkday('2018-4-28')
 // true
 ```
 
@@ -49,7 +49,7 @@ cn.isWorkday('2018-4-28')
 - date string|timestamp|Date 日期
 - 返回：boolean
 ```javascript
-cn.isRestday('2018-4-30')
+ch.isRestday('2018-4-30')
 // true
 ```
 
@@ -59,7 +59,7 @@ cn.isRestday('2018-4-30')
 - date2 string|timestamp|Date 日期2
 - 返回：Array
 ```javascript
-cn.getHolidaysBetween('2018-10-1', '2018-10-3')
+ch.getHolidaysBetween('2018-10-1', '2018-10-3')
 // ['2018-10-01','2018-10-02','2018-10-03']
 ```
 
