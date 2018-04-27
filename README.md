@@ -24,7 +24,7 @@ ch.isHoliday('2018-10-1')
 * [isHoliday](#isholiday)
 * [isWorkday](#isworkday)
 * [isRestday](#isrestday)
-* [getHolidaysBetween](#getholidaysBetween)
+* [getHolidaysBetween](#getholidaysbetween)
 
 ### isHoliday
 > 判断一个日期是否为法定节假日
