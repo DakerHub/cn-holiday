@@ -1,0 +1,30 @@
+{
+  "name": "cn-holiday",
+  "version": "1.1.0",
+  "description": "中国节假日库",
+  "main": "src/index.js",
+  "scripts": {
+    "init": "node ./script/setHolidayJson.js",
+    "test": "jest --config test/unit/jest.conf.js --coverage"
+  },
+  "keywords": [
+    "holiday",
+    "china",
+    "chinese",
+    "workday"
+  ],
+  "author": "daker",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "jest": "^22.4.3",
+    "qs": "^6.5.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.5.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
