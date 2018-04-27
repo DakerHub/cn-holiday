@@ -25,6 +25,8 @@ ch.isHoliday('2018-10-1')
 * [isWorkday](#isworkday)
 * [isRestday](#isrestday)
 * [getHolidaysBetween](#getholidaysbetween)
+* [getWorkdaysBetween](#getworkdaysbetween)
+* [getWorkdaysCountBetween](#getWorkdayscountbetween)
 
 ### isHoliday
 > 判断一个日期是否为法定节假日
@@ -60,7 +62,27 @@ ch.isRestday('2018-4-30')
 - 返回：Array
 ```javascript
 ch.getHolidaysBetween('2018-10-1', '2018-10-3')
-// ['2018-10-01','2018-10-02','2018-10-03']
+// ['2018-10-01', '2018-10-02', '2018-10-03']
+```
+
+### getWorkdaysBetween
+> 获取两个日期之间的所有工作日
+- date1 string|timestamp|Date 日期1
+- date2 string|timestamp|Date 日期2
+- 返回：Array
+```javascript
+ch.getWorkdaysBetween('2018-9-28', '2018-10-8')
+// ['2018-09-28', '2018-09-29', '2018-09-30', '2018-10-08']
+```
+
+### getWorkdaysCountBetween
+> 获取两个日期之间的所有工作日数量
+- date1 string|timestamp|Date 日期1
+- date2 string|timestamp|Date 日期2
+- 返回：Number
+```javascript
+ch.getWorkdaysBetween('2018-9-28', '2018-10-8')
+// 4
 ```
 
 ## License

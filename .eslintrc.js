@@ -9,10 +9,8 @@ module.exports = {
     browser: true,
       mocha: true
   },
-  // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
   extends: ['standard'],
-  // add your custom rules here
-  "rules": {
+  rules: {
     "prefer-const": ["error", {
       "destructuring": "any",
       "ignoreReadBeforeAssign": true
